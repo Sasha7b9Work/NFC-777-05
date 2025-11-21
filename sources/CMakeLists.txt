@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.14)
 
-project (RD330X)
-
-set (TARGET_NAME )
+project (NFC-777-05)
 
 set(CMAKE_UNITY_BUILD ON)
 

@@ -1,0 +1,9 @@
+*uvgui*
+
+sources/generated/*
+sources/Loader-799/Objects/*
+sources/Loader-799/Listings/*
+sources/Reader/Listings-799/*
+sources/Reader/Listings-Debug-799/*
+sources/Reader/Objects-799/*
+sources/Reader/Objects-Debug-799/*
