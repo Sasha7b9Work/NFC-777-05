@@ -1,2 +1,2 @@
 @echo on
-start ..\..\generated\Keil\RD330X_2.sln
+start ..\..\generated\Keil\NFC-777-05.slnx
