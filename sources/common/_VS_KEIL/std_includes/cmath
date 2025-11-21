@@ -1,0 +1,19 @@
+#pragma once
+
+
+namespace std //-V1061
+{
+    bool isnan(float);
+    bool isinf(float);
+    float fabsf(float);
+    float fabs(double);
+    float sqrtf(float);
+    double sqrt(double);
+    float log10f(float);
+    float cosf(float);
+    float acosf(float);
+    float sinf(float);
+    bool isnan(float);
+    float expf(float);
+    float powf(float, float);
+}
