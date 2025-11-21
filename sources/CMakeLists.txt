@@ -8,8 +8,5 @@ if(${CMAKE_BUILD_TYPE} STREQUAL Debug)
     add_definitions(-DDEBUG)
 endif()
 
-add_subdirectory(Reader/vs_keil771)
-add_subdirectory(Reader/vs_keil777)
 add_subdirectory(Reader/vs_keil799)
-add_subdirectory(Reader/vs_keilDemo799)
 add_subdirectory(Loader-799)
