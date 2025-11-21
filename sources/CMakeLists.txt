@@ -9,4 +9,4 @@ if(${CMAKE_BUILD_TYPE} STREQUAL Debug)
 endif()
 
 add_subdirectory(Reader/vs_keil799)
-add_subdirectory(Loader-799)
+add_subdirectory(Loader)
