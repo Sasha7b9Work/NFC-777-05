@@ -52,12 +52,6 @@ void Device::Init()
 
     Memory::Settings::Init();
 
-#ifdef MCU_GD
-
-    TTP223::Init();
-
-#endif
-
     Player::Play(TypeSound::Beep);
 
     if (StartState::NeedMinimalWG())                // Режим "минимального WG" - передаём только GUID

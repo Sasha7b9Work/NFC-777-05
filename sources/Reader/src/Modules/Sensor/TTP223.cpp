@@ -7,13 +7,13 @@
 #include <system.h>
 
 
-void TTP223::Init()
+void _TTP223::Init()
 {
     gpio_mode_set(GPIOA, GPIO_MODE_INPUT, GPIO_PUPD_NONE, GPIO_PIN_1);
 }
 
 
-void TTP223::Update()
+void _TTP223::Update()
 {
     static bool pressed = false;
 

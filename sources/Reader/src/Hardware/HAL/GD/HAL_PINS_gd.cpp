@@ -8,14 +8,14 @@
 // Выводы
 PinInputAntiBounce  pinLG(Port::_A, GPIO_PIN_11, Pulling::None);        // 20 def
 PinInputAntiBounce  pinLR(Port::_A, GPIO_PIN_10, Pulling::None);        // 21 def
-PinInput            pinSND(Port::_B, GPIO_PIN_0, Pulling::None);        // 14 def
+PinInput            pinSND(Port::_B, GPIO_PIN_2, Pulling::None);        //
 
 // RS485
 PinOutputPP         pinTXD1(Port::_A, GPIO_PIN_9, Pulling::Up);         // 19 def
 
 // Картридер
-PinInput            pinIRQ_TRX(Port::_B, GPIO_PIN_2, Pulling::Down);    // 16 
-PinOutputPP         pinENN(Port::_A, GPIO_PIN_6, Pulling::Up);          // 12 def
+PinInput            pinIRQ_TRX(Port::_F, GPIO_PIN_1, Pulling::Down);    //
+PinOutputPP         pinENN(Port::_A, GPIO_PIN_6, Pulling::Up);          //
 
 // Акселерометр
 PinInput            pinIRQ_SNS(Port::_F, GPIO_PIN_0, Pulling::Down);    //  2 def

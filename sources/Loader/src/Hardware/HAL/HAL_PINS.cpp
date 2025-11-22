@@ -8,7 +8,7 @@
 PinOutputPP         pinTXD1(Port::_A, GPIO_PIN_9, Pulling::Up);         // 19 def
 
 // Картридер
-PinOutputPP         pinENN(Port::_A, GPIO_PIN_6, Pulling::Up);          // 12 def
+PinOutputPP         pinENN(Port::_A, GPIO_PIN_1, Pulling::Up);          // 12 def
 
 // Акселерометр
 PinOutputPP         pinLOCK(Port::_A, GPIO_PIN_2, Pulling::Up);         //  8 def

@@ -3,7 +3,7 @@
 
 
 // Сенсорная кнопка
-namespace TTP223
+namespace _TTP223
 {
     void Init();
 

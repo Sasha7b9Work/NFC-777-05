@@ -1,10 +1,10 @@
 
 *** Изменились ***
         Было            Стало
-12 PA6/AIN6     ENN     PA1/AIN1   7
-14 PB0/AIN8     SND     PB2       16
-15 PB1/AIN9     DLED    PB0/AIN8  14
-16 PB2          IRQ_TRX PF1/SCL_0  3
+12 PA6/AIN6     ENN     PA1/AIN1   7 + PinOutputPP pinENN
+14 PB0/AIN8     SND     PB2       16 + PinInput    pinSND
+15 PB1/AIN9     DLED    PB0/AIN8  14 + static const uint PIN_DLED = GPIO_PIN_0;
+16 PB2          IRQ_TRX PF1/SCL_0  3 + PinInput    pinIRQ_TRX
 
 *** Удалены ***
  7 PA1/AIN1     KB

@@ -28,7 +28,7 @@ namespace WS2812B
 #ifdef MCU_GD
 
     static const uint PORT_DLED = GPIOB;
-    static const uint16 PIN_DLED = GPIO_PIN_1;
+    static const uint PIN_DLED = GPIO_PIN_0;
 
 #endif
 
@@ -242,8 +242,8 @@ void WS2812B::DLED::WriteOneIndicator(const uint data[24 * 2 + 1])
     (void)data;
 
 #ifdef MCU_GD
-    #define PIN_SET     GPIO_BOP(GPIOB) = (uint32_t)GPIO_PIN_1
-    #define PIN_RESET   GPIO_BC(GPIOB) = (uint32_t)GPIO_PIN_1
+    #define PIN_SET     GPIO_BOP(GPIOB) = PIN_DLED
+    #define PIN_RESET   GPIO_BC(GPIOB) = PIN_DLED
 #else
     #define PIN_SET     GPIOB->BSRR = GPIO_PIN_1
     #define PIN_RESET   GPIOB->BSRR = (uint)(GPIO_PIN_1 << 16)
