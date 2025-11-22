@@ -1,0 +1,41 @@
+
+*** Изменились ***
+        Было            Стало
+12 PA6/AIN6     ENN     PA1/AIN1   7
+14 PB0/AIN8     SND     PB2       16
+15 PB1/AIN9     DLED    PB0/AIN8  14
+16 PB2          IRQ_TRX PF1/SCL_0  3
+
+*** Удалены ***
+ 7 PA1/AIN1     KB
+18 PA8          SD
+
+*** Пустые ***
+ 3 PF1/SCL_0    -
+32 PB8          -
+
+*** Осталось как было ***
+ 1 VDD          3.3V
+ 2 PF0/SDA_0    IRQ_SNS
+ 4 NRST         RST
+ 5 VDDA         3VA
+ 6 PA0/AIN0     V_DC
+ 8 PA2/AIN2/TX2 TXD2   
+ 9 PA3/AIN3/RX2 RXD2
+10 PA4/AIN4     WS
+11 PA5/AIN5     BCLK
+13 PA7/AIN7     DIN
+17 VDD          3V3
+19 PA9/TX1      TXD1
+20 PA10/RX1     LG
+21 PA11         LR
+22 PA12         SRAM
+23 SWDIO        SWDIO
+24 SWCLK        SWCLK
+25 PA15         STRX
+26 PB3          SCK
+27 PB4          MISO
+28 PB5          MOSI
+29 PB6/SQL      SCL
+30 PB7/SDA      SDA
+31 BOOT0        BOOT0

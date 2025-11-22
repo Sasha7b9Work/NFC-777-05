@@ -8,8 +8,7 @@
   <WorkspaceName>D:\My\Prog\GitHub\Work\NFC\NFC-777-05\sources\NFC-777-05.uvmpw</WorkspaceName>
 
   <project>
-    <PathAndName>.\Reader\Reader-799.uvprojx</PathAndName>
-    <NodeIsExpanded>1</NodeIsExpanded>
+    <PathAndName>.\Reader\Reader.uvprojx</PathAndName>
   </project>
 
   <project>
