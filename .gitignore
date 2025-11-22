@@ -4,7 +4,7 @@
 sources/generated/*
 sources/Loader/Objects/*
 sources/Loader/Listings/*
-sources/Reader/Listings-799/*
-sources/Reader/Listings-Debug-799/*
-sources/Reader/Objects-799/*
-sources/Reader/Objects-Debug-799/*
+sources/Reader/Listings/*
+sources/Reader/Listings-Debug/*
+sources/Reader/Objects/*
+sources/Reader/Objects-Debug/*
