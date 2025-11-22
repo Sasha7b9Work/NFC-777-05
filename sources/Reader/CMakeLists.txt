@@ -1,18 +1,18 @@
 # (c) Aleksandr Shevchenko e-mail : Sasha7b9@tut.by
 
-project (Reader-799)
+project (Reader-777-05)
 
 set(CMAKE_UNITY_BUILD OFF)
 
 message("------------------------------------------------------------------------ ${PROJECT_NAME}")
 
 include_directories(
-    ../../common/_VS_KEIL/CMSIS
-    ../../common/_VS_KEIL/std_includes
-    ../src/Hardware/HAL/GD
-    ../../common/GD32E23x_Firmware_Library/Firmware/CMSIS/GD/GD32E23x/Include
-    ../../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Include
-    ../src
+    ../common/_VS_KEIL/CMSIS
+    ../common/_VS_KEIL/std_includes
+    src/Hardware/HAL/GD
+    ../common/GD32E23x_Firmware_Library/Firmware/CMSIS/GD/GD32E23x/Include
+    ../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Include
+    src
 )
 
 add_definitions(-DGD32E230 -DTYPE_BOARD_799
@@ -33,29 +33,29 @@ add_compile_options(
 )
 
 
-file(GLOB GD32E23x                      ../../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Include/*.*
-                                        ../../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Source/*.*)
-file(GLOB DOC                           ../../doc/*.*)
-file(GLOB SRC                           ../src/*.*)
-file(GLOB COMMUNICATOR                  ../src/Communicator/*.*)
-file(GLOB DEVICE                        ../src/Device/*.*)
-file(GLOB HARDWARE                      ../src/Hardware/*.*)
-file(GLOB HARDWARE_CMSIS                ../src/Hardware/CMSIS/*.*)
-file(GLOB HARDWARE_HAL                  ../src/Hardware/HAL/*.*
-                                        ../src/Hardware/HAL/GD/*.*)
-file(GLOB MODULES_INDICATOR             ../src/Modules/Indicator/*.*)
-file(GLOB MODULES_INDICATOR_SCRIPTS     ../src/Modules/Indicator/Scripts/*.*)
-file(GLOB MODULES_INDICATOR_WS2812B     ../src/Modules/Indicator/WS2812B/*.*)
-file(GLOB MODULES_LIS2DH12              ../src/Modules/LIS2DH12/*.*)
-file(GLOB MODULES_MEMORY                ../src/Modules/Memory/*.*)
-file(GLOB MODULES_PLAYER                ../src/Modules/Player/*.*
-                                        ../src/Modules/Player/GD/*.*)
-file(GLOB MODULES_SENSOR                ../src/Modules/Sensor/*.*)
-file(GLOB READER                        ../src/Reader/*.*)
-file(GLOB READER_CARDS                  ../src/Reader/Cards/*.*)
-file(GLOB READER_RC663                  ../src/Reader/RC663/*.*)
-file(GLOB SETTINGS                      ../src/Settings/*.*)
-file(GLOB UTILS                         ../src/Utils/*.*)
+file(GLOB GD32E23x                      ../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Include/*.*
+                                        ../common/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Source/*.*)
+file(GLOB DOC                           ../doc/*.*)
+file(GLOB SRC                           src/*.*)
+file(GLOB COMMUNICATOR                  src/Communicator/*.*)
+file(GLOB DEVICE                        src/Device/*.*)
+file(GLOB HARDWARE                      src/Hardware/*.*)
+file(GLOB HARDWARE_CMSIS                src/Hardware/CMSIS/*.*)
+file(GLOB HARDWARE_HAL                  src/Hardware/HAL/*.*
+                                        src/Hardware/HAL/GD/*.*)
+file(GLOB MODULES_INDICATOR             src/Modules/Indicator/*.*)
+file(GLOB MODULES_INDICATOR_SCRIPTS     src/Modules/Indicator/Scripts/*.*)
+file(GLOB MODULES_INDICATOR_WS2812B     src/Modules/Indicator/WS2812B/*.*)
+file(GLOB MODULES_LIS2DH12              src/Modules/LIS2DH12/*.*)
+file(GLOB MODULES_MEMORY                src/Modules/Memory/*.*)
+file(GLOB MODULES_PLAYER                src/Modules/Player/*.*
+                                        src/Modules/Player/GD/*.*)
+file(GLOB MODULES_SENSOR                src/Modules/Sensor/*.*)
+file(GLOB READER                        src/Reader/*.*)
+file(GLOB READER_CARDS                  src/Reader/Cards/*.*)
+file(GLOB READER_RC663                  src/Reader/RC663/*.*)
+file(GLOB SETTINGS                      src/Settings/*.*)
+file(GLOB UTILS                         src/Utils/*.*)
 
 
 source_group(GD32E23x                   FILES ${GD32E23x})
@@ -86,7 +86,7 @@ set_source_files_properties(
 )
 
 set_source_files_properties(
-    ../src/Communicator/OSDP_custom.cpp
+    src/Communicator/OSDP_custom.cpp
     PROPERTIES SKIP_UNITY_BUILD_INCLUSION ON
 )
 
