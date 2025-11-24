@@ -8,3 +8,5 @@ sources/Reader/Listings/*
 sources/Reader/Listings-Debug/*
 sources/Reader/Objects/*
 sources/Reader/Objects-Debug/*
+
+files/Loaders/771+777+799/FMW/*.bin
