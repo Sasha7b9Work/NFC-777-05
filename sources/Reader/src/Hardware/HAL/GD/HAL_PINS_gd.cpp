@@ -15,7 +15,7 @@ PinOutputPP         pinTXD1(Port::_A, GPIO_PIN_9, Pulling::Up);         // 19 de
 
 // Картридер
 PinInput            pinIRQ_TRX(Port::_F, GPIO_PIN_1, Pulling::Down);    //
-PinOutputPP         pinENN(Port::_A, GPIO_PIN_6, Pulling::Up);          //
+PinOutputPP         pinENN(Port::_A, GPIO_PIN_1, Pulling::Up);          //
 
 // Акселерометр
 PinInput            pinIRQ_SNS(Port::_F, GPIO_PIN_0, Pulling::Down);    //  2 def
